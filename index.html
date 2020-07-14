@@ -46,7 +46,7 @@
         <hr>
 
         <!-- blockquote -->
-        <blockquote class="blockquote-reverse"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam similique id fugiat praesentium doloribus explicabo facilis aliquam, culpa suscipit adipisci officiis! Vitae laborum debitis repellat corporis accusamus autem fugiat molestiae.</p>
+        <blockquote class="blockquote text-right"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam similique id fugiat praesentium doloribus explicabo facilis aliquam, culpa suscipit adipisci officiis! Vitae laborum debitis repellat corporis accusamus autem fugiat molestiae.</p>
         <footer>quote by <cite title="mahadi hasan">mahadi hasan</cite></footer> </blockquote>
 
         <hr>
@@ -64,6 +64,7 @@
             <li>list item3</li>
             <li>list item4</li>
         </ul>
+        <hr>
         <!-- code -->
         <code>I do not want this</code>
         
@@ -71,13 +72,94 @@
 
         <!-- contextual colors -->
         <p class="text-primary">hello world</p>
-        <p class="text-primary">hello world</p>
-        <p class="text-primary">hello world</p>
-        <p class="text-primary">hello world</p>
-        <p class="text-primary">hello world</p>
+        <p class="text-success">hello world</p>
+        <p class="text-danger">hello world</p>
+        <p class="text-warning">hello world</p>
+        <p class="text-info">hello world</p>
+        <p class="text-muted">hello world</p>
+
+         <!-- contextual bg-colors -->
+         <p class="bg-primary">hello world</p>
+         <p class="bg-success">hello world</p>
+         <p class="bg-danger">hello world</p>
+         <p class="bg-warning">hello world</p>
+         <p class="bg-info">hello world</p>
+         <p class="bg-muted">hello world</p>
     </div>
+    <hr>
+
+     <!-- button -->
+    <div class="container">
+       
+
+        <button class="btn btn-default">Button</button>
+        <a href="#" class="btn btn-default" role="button">link</a>
+        <input type="submit" class="btn btn-default" value="submit">
+        <hr>
+        <!-- contextual button -->
+        <button class="btn btn-default">default</button>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-success">success</button>
+        <button class="btn btn-info">info</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-muted">muted</button>
+        <button class="btn btn-danger">danger</button>
+        <button class="btn btn-link">link</button>
+        <hr>
+        <!-- button sizes -->
+        <button class="btn btn-default btn-lg">default</button>
+        <button class="btn btn-primary btn-lg">default</button>
+        <button class="btn btn-primary btn-md">default</button>
+        <button class="btn btn-primary btn-sm">default</button>
+        <button class="btn btn-default btn-sm " disabled="disabled">default</button>
+
+    </div>
+    <hr>
+
+     <!-- forms -->
+     <div class="container">
+         <form action="">
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" class="form-control" placeholder="add name">
+            </div>
+
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" class="form-control" placeholder="add email">
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password
+                " class="form-control" placeholder="add password">
+            </div>
+
+            <div class="form-group">
+                <label for="">Massage</label>
+                <textarea type="text" class="form-control" placeholder="add massage"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="">Gender</label>
+               <select class="form-control" name="" id="">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+               </select>
+            </div>
+
+            <div class="form-group">
+                <label for="">upload file</label>
+                <input type="file">
+                <p class="help-block">only png and jpg allowed</p>
+            </div>
+            
+         </form>
+     </div>
+    </container>
 
 
+     <div style="height:400px"></div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
